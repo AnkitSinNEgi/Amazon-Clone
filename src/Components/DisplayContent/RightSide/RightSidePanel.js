@@ -1,13 +1,11 @@
 import React, { Component, useEffect, useState } from 'react';
 import './RightSidePanel.css';
-import Product from './Product';
-import { List } from '@mui/material';
-import Rating from '@mui/material/Rating';
+import ProductNew from './ProductNew';
+// import { List } from '@mui/material';
 
 function RightSidePanel (props)
 {
     const [ListOfProduct,setListOfProducts] =useState([]);
-
     useEffect(()=>{
         //api call
         let List=[
@@ -22,7 +20,7 @@ function RightSidePanel (props)
         <div className='rightSide_main'>  
         {  ListOfProduct.map((item)=>{
             //    <Product name={item.name}  rating={item.rating} price={item.price}/> //while sending eachparam separatly
-                <Product definition={item}></Product>
+                <ProductNew />
         })
            }         
         </div>

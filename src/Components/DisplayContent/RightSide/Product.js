@@ -4,8 +4,9 @@ import './RightSidePanel';
 import Rating from '@mui/material/Rating';
 
 
-function Product (props)
+const Product = (props) =>
 {
+    console.log(props);
     return(
         <div className='product'>         
            <div className="product_image">
@@ -15,7 +16,7 @@ function Product (props)
                 {props.definition.name}
             </div>
             <div className='product_rating'>
-            <Rating name="read-only" value="4" readOnly />
+            <Rating name="read-only" value="4" readOnly />  
                 {(props.definition.rating)}
             </div>
             <div className='product_price'>
