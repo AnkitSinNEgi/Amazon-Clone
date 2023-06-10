@@ -1,0 +1,16 @@
+
+.leftSide_main{
+     width: 350px;
+     height: 700px;
+     background-color: blueviolet;
+     border-right: 5px  solid;   
+}
+.leftSide_header{
+    text-align: center;
+    padding-top: 20px;
+}
+.brandName{
+    display: block;
+    margin-left: 50px;
+    margin-top: 40px;
+}

@@ -1,0 +1,120 @@
+.navbar_component{
+    width: 100w;
+    height: 62px;
+    background-color: rgb(4, 26, 41);
+    display: flex;
+}
+/*amazon logo*/
+.navbar_logo{
+    background: url('https://ik.imagekit.io/amazon360/amazon-image/amazon-image/sprite.png?updatedAt=1683443607579') no-repeat -20px -180px;
+	width: 152px;
+	height: 42px; 
+    margin: 10 px;
+    margin-top: 12px;
+    margin-left: 10px; 
+}
+
+/* location compoennt with 2 comp OF Navbar*/
+.navbar_locator{
+    display: flex;
+    margin-left: 14px;
+    margin-top:12px;   
+}
+.navbar_location{
+    color: rgb(252, 246, 246);
+    font-weight: bold;  /* banglore location OF Navbar*/
+    font-size: 26px;
+    margin-left: 6px;
+    margin-top: 3px;   
+}
+/*address drop image*/
+.navbar_locatorImage{
+    background: url('https://ik.imagekit.io/amazon360/amazon-image/amazon-image/sprite.png?updatedAt=1683443607579') no-repeat -142px -758px;
+	width: 29px;
+	height: 33px;
+}
+
+/* serach bar with 3 comp OF Navbar*/
+.navbar_searchcomponent{
+    display: flex;
+    margin:0px 0px 0px 15px ;
+}
+.nav_dropdown{
+    height: 41px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: -11px;
+    border-radius: 4px;
+}
+.navbar_searchbox{
+    width:600px;
+    height:35px;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+.navbar_searchicon{
+    background: url('https://ik.imagekit.io/amazon360/amazon-image/amazon-image/sprite.png?updatedAt=1683443607579') no-repeat -20px -580px;
+	width: 40px;
+	height: 40px;
+    background-color: rgb(243, 178, 38);
+    margin:11px 60px 10px 0px;
+    border-radius: 4px;
+}
+
+/*NAvbar return,singin  and cart */
+.navbar_signin{
+ margin-left: -42px;
+ margin-top: 8px;
+ margin-right:10px;
+ 
+}
+.navbar_returns{
+margin-top: 6px;
+}
+.navbar_cart{
+ margin-left: 8px;
+ margin-top: 10px;
+ display: flex;
+}
+.navbar_text{
+    color: aliceblue;
+}
+.cart_image{
+    background:url('https://ik.imagekit.io/amazon360/amazon-image/amazon-image/sprite.png?updatedAt=1683443607579') no-repeat -20px -680px;
+	width: 76px;
+	height: 52px;
+    margin-top: -3px;
+    margin-left: -10px;
+}
+.navbar_text_cart{
+    margin-top: 25px;  
+    color: rgb(255, 253, 253);
+    margin-left: 28px;
+    font-weight: bold;
+    
+}
+.cart_item{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -40px;
+     margin-top:-8px;
+     position: relative;
+     color: brown;
+}
+
+/*for navigation bar footer with home, electronic etc*/
+.navbar_footer{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(8, 45, 75);
+    color: beige;
+    display: flex;
+    
+}
+/*for nav bar fotter contents*/
+.navbar_footer_text{
+    margin: 5px 10px;
+    font-size: medium;
+    font-weight: bold;
+}

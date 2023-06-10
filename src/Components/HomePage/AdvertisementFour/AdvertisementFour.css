@@ -1,0 +1,43 @@
+.AdvertisementFour_main {
+    width: 300px;
+    height: 350px;
+    margin-left: 30px;
+    align-content: center;
+    background-color: rgb(10, 233, 159);
+    margin-top: 220px;
+    padding-top: 10px;
+  }
+  .AdvertisementFour_header{
+      text-align: center;
+      
+      font-size: 21px;
+      width: 260px;
+      height: 60px;
+      margin-left: 10px;
+      background-color: blueviolet;
+  }
+  .AdvertisementFour_body{
+      width: 230px;
+      height: 210px;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-top: 15px; 
+      background-color: blueviolet;   
+      display: flex; 
+      flex-wrap: wrap;
+  }
+  .adfour_Image{
+    height: 90px;
+    width:  90px;
+    margin-left:12px;
+    margin-top: 10px;
+    display: flex;
+  }
+  .AdvertisementFour_footer{
+     width: 260px;
+     height: 50px;
+     margin-left: 10px;
+     margin-top: 8px;
+     text-align: center;
+      background-color: bisque;
+  }
